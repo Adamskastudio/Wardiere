@@ -1,0 +1,174 @@
+@import url('https:/googleapis.com/css?family=Poppins:400,500,700');
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+ }
+
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+.carousel-inner img{
+
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 600%;
+    text-shadow: 1px 1px 10px, #000;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    
+
+}
+
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+.btn-primary{
+    color:  #000000;
+    background-color: #F6F2EA;
+    border: 1px solid #F6F2EA;
+}
+.btn-primary:hover{
+    background-color: #F6F2EA;
+    border: 1px solid #F6F2EA;
+
+}
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    color: #000;
+}
+.welcome hr{
+    border-top: 2px solid #000000;
+    width: 95%;
+    margin-top: 3rem;
+
+}
+
+.card-img-top{
+
+ 
+   text-align: center;
+   margin-top: 5%;
+   margin-left:5%;
+   padding: 0;
+
+}
+img{
+
+        overflow-clip-margin: content-box;
+        overflow: clip;
+    
+}
+
+.grafika{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-shadow: 1px 1px 10px, #000;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0%;
+
+    
+}
+.stopka{
+    background-color: #F2F1F0;
+    color: #000000;
+}
+.witamy{
+    background-color: #F6F2EA;
+}
+
+.hr{
+    border-top: 2px solid #000000;
+    width: 175%;
+    margin-top: 3rem;
+    padding: 0%;
+}
+
+.carousel-caption a{
+    text-decoration: none;
+    color: #000;
+}
+
+.carousel-caption a:hover {
+    text-decoration: underline;
+ }
+
+.oferta h1{
+   
+   text-align: center;
+ 
+font-family: Brush Script MT, Brush Script Std, cursive;
+text-shadow: 1px 1px 10px, #000;
+
+    
+}
+
+
+.oferta {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      table-layout: fixed;
+      
+    }
+
+
+
+td {
+    
+    border-right: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: table-cell;
+    vertical-align: inherit;
+    color: #000;
+}
+table a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+button {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #eaeaea;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+ table{
+    margin-left: 28%;
+ }
